@@ -1,0 +1,17 @@
+.book-item {
+  margin: 10px 15px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  p, span {
+    text-align: center;
+  }
+  p {
+    font-weight: bold;
+  }
+  button {
+    margin: 15px;
+  }
+}
