@@ -4,7 +4,7 @@ import { Book } from '../book-list/book.model';
 @Component({
   selector: 'app-book-collection',
   templateUrl: './book-collection.component.html',
-  styleUrls: ['./book-collection.component.css'],
+  styleUrls: ['./book-collection.component.scss'],
 })
 export class BookCollectionComponent {
   @Input() books: ReadonlyArray<Book> = [];
